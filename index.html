@@ -104,7 +104,7 @@ justify-content: space-between;
 
     <div class="hero">
         <div class="navbar">
-            <img src="C:\Users\HP\Desktop\music\sticker.webp" class="logo">
+            <img src="sticker.webp" class="logo">
             <ul>
                 <li><a href="#">नमस्कार</a></li>
                 <li><a href="#">नमस्कार</a></li>
@@ -119,13 +119,13 @@ justify-content: space-between;
             </div>
             <div class="right">
                 <p>Click To Play</p>
-                <img src="C:\Users\HP\Desktop\music\play.png" id="icon">
+                <img src="play.png" id="icon">
             </div>
         </div>
     </div>
 
     <audio id="mysong">
-        <source src="C:\Users\HP\Desktop\music\song.mp3" type="audio/mp3">
+        <source src="song.mp3" type="audio/mp3">
     </audio>
     
     <script>
@@ -136,10 +136,10 @@ justify-content: space-between;
         icon.onclick = function(){                                   
             if(mysong.paused){
                 mysong.play();
-                icon.src ="C:\Users\HP\Desktop\music\pause.png";
+                icon.src ="pause.png";
             }else{
                 mysong.pause();
-                icon.src ="C:\Users\HP\Desktop\music\play.png";
+                icon.src ="play.png";
             }
         }
 
